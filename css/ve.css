@@ -1,0 +1,549 @@
+.heat {
+  top: calc(100vh - 60px);
+  width: 96%;
+  height: 2%;
+  margin-left: 2%;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../heatmap/img/heat.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
+.mapline {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  padding: 2%;
+}
+
+.mapline img {
+  width: 100%;
+  height: calc(100vh - 75px);
+}
+
+.titlepng {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+}
+.cross {
+  margin-top: 14%;
+  margin-left: 40%;
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+.arrow {
+  font-size: 5vw;
+  margin-top: 44%;
+  margin-left: 3%;
+  width: auto;
+  position: absolute;
+  z-index: 99999;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.arrow a {
+  color: #DDDCFD;
+}
+.arrow a:hover {
+  color: #0800FF;
+}
+.idd {
+  margin-top: 15%;
+  margin-left: 35%;
+  width: 28%;
+  position: absolute;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+
+/* Dataism */
+
+.nix {
+  top: 12%;
+  margin-top: 52%;
+  margin-bottom: -32%;
+  width: 15%;
+  margin-left: 45%;
+}
+
+.zuckerberg {
+  top: 15%;
+  margin-bottom: -25%;
+  width: 13%;
+  margin-left: 61%;
+}
+
+.chinabigbrother {
+  width: 23%;
+  margin-bottom: -38%;
+  margin-left: 70%;
+}
+
+.touching {
+  top: 45%;
+  width: 21%;
+  margin-top: -35%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
+
+.infowar {
+  top: 50%;
+  width: 25%;
+  margin-top: -35%;
+  margin-bottom: 20%;
+  margin-left: 60%;
+}
+
+.touching:hover,
+.infowar:hover,
+.nix:hover,
+.zuckerberg:hover,
+.chinabigbrother:hover {
+  z-index: 999;
+}
+
+/* Bulutlar */
+
+
+.cylinderseal {
+  margin-bottom: 2%;
+  width: 60%;
+  margin-left: 50%;
+
+}
+
+.nabu {
+  top: 0;
+  margin-top: -30px;
+  width: 30%;
+  margin-left: 35%;
+
+
+}
+
+.datacenter {
+  top: 15%;
+  margin-top: 0%;
+  width: 20%;
+  margin-left: 30%;
+
+
+}
+
+.tabletmet {
+  top: 44%;
+  margin-top: -30%;
+  width: 20%;
+  margin-left: 70%;
+
+
+}
+
+.gilgamesh {
+  top: 24%;
+  margin-bottom: -20%;
+  width: 25%;
+  margin-left: 30%;
+
+}
+
+.god {
+  top: 50%;
+  margin-bottom: -25%;
+  width: 47%;
+  margin-left: 30%;
+
+}
+
+.leu {
+  top: 12%;
+  margin-bottom: 1%;
+  width: 22%;
+  margin-left: 10%;
+
+}
+
+.ivymike {
+  top: 7%;
+  margin-bottom: -10%;
+  width: 40%;
+  margin-left: 28%;
+
+}
+
+.trinity {
+  width: 18%;
+  margin-left: 62%;
+}
+
+.atomicdawn {
+  top: 6%;
+  margin-top: -35%;
+  margin-bottom: -29%;
+  width: 15%;
+  margin-left: 82%;
+}
+
+.baran {
+  top: 10%;
+  margin-bottom: -10%;
+  width: 25%;
+  margin-left: 1%;
+}
+
+.cloudstorage {
+  top: 42%;
+  margin-bottom: -2%;
+  width: 50%;
+  margin-left: 58%;
+}
+
+.internet {
+  margin-bottom: -15%;
+  width: 60%;
+  margin-left: 25%;
+}
+
+.cloud {
+  margin-top: 0px;
+  width: 100%;
+  margin-left: 100%;
+}
+
+.globalbrain {
+  top: 0;
+  margin-bottom: -20%;
+  width: 60%;
+  margin-left: 0%;
+}
+
+
+.cloud:hover,
+.baran:hover,
+.atomicdawn:hover,
+.trinity:hover,
+.ivymike:hover,
+.leu:hover,
+.god:hover,
+.gilgamesh:hover,
+.tabletmet:hover,
+.datacenter:hover,
+.nabu:hover {
+  z-index: 999;
+
+}
+
+
+/* Melekler */
+
+
+.wingedsun {
+  top: 20%;
+  margin-bottom: -10%;
+  width: 20%;
+  margin-left: 40%;
+
+}
+
+.hermes {
+  top:50%;
+  margin-bottom: -20%;
+  width: 20%;
+  margin-left: 80%;
+
+}
+
+.recordingangel {
+  margin-bottom: -20%;
+  width: 20%;
+  margin-left: 68%;
+}
+
+.giotto {
+  margin-bottom: -10%;
+  width: 29%;
+  margin-left: 33%;
+}
+
+
+
+.watchingeye {
+  top: 18%;
+  margin-bottom: -5%;
+  width: 30%;
+  margin-left: 22%;
+
+}
+
+
+
+.watchingeye2 {
+  top: 61%;
+  margin-bottom: -20%;
+  width: 20%;
+  margin-left: 70%;
+
+}
+
+
+
+.lochkarten {
+  top: 17%;
+  margin-bottom: -20%;
+  width: 17%;
+  margin-left: 55%;
+
+}
+
+.apian {
+  margin-bottom: -5%;
+  width: 20%;
+  margin-left: 82%;
+
+}
+
+.copernicus {
+  top: 40%;
+  margin-bottom: -10%;
+  width: 20%;
+  margin-left: 50%;
+
+}
+
+.copernicus2 {
+  margin-bottom: -45%;
+  width: 28%;
+  margin-left: 40%;
+
+}
+
+.wingedman {
+  top: 16%;
+  margin-bottom: 0;
+  width: 20%;
+  margin-left: 70%;
+
+}
+
+.goddard {
+  top: 20%;
+  margin-bottom: -10%;
+  width: 30%;
+  margin-left: 40%;
+
+}
+
+.earth {
+  margin-bottom: -33%;
+  width: 40%;
+  margin-left: 50%;
+
+}
+
+.apollostamp {
+  margin-bottom: -43%;
+  width: 16%;
+  margin-left: 70%;
+
+}
+
+.voyager {
+  margin-bottom: -1%;
+  width: 35%;
+  margin-left: 9%;
+
+}
+
+.goldendisk {
+  top: 24%;
+  margin-bottom: -19%;
+  width: 22%;
+  margin-left: 33%;
+}
+.satellite {
+  margin-bottom: -1%;
+  width: 35%;
+  margin-left: 60%;
+
+}
+
+.drones {
+  margin-bottom: -9%;
+  width: 30%;
+  margin-left: 0%;
+}
+
+.warrug {
+  top: 43%;
+  margin-bottom: -19%;
+  width: 16%;
+  margin-left: 39%;
+}
+
+.drone {
+  margin-bottom: -29%;
+  width: 70%;
+  margin-left: 59%;
+
+}
+
+.drone3d {
+  margin-bottom: 30%;
+  margin-top: -35%;
+  width: 65%;
+  margin-left: 15%;
+  display:none;
+
+}
+
+.facerec {
+  margin-bottom: -10%;
+  width: 21%;
+  margin-left: 10%;
+
+}
+.sur {
+  top: 40%;
+  margin-bottom: -10%;
+  width: 21%;
+  margin-left: 50%;
+
+}
+
+.ascan {
+  margin-bottom: -20%;
+  width: 60%;
+  margin-left: 40%;
+
+}
+
+.wingedsun:hover,
+.hermes:hover,
+.recordingangel:hover,
+.lochkarten:hover,
+.apian:hover,
+.copernicus2:hover,
+.copernicus:hover,
+.wingedman:hover,
+.goddard:hover,
+.apollostamp:hover,
+.voyager:hover,
+.goldendisk:hover,
+.drones:hover,
+.warrug:hover,
+.drone3d:hover,
+.facerec:hover,
+.watchingeye2:hover,
+.watchingeye:hover,
+.giotto:hover {
+  z-index: 999;
+}
+
+/* Yaşam ağacı */
+
+.assyrian {
+  margin-bottom: -10%;
+  width: 21%;
+  margin-left: 40%;
+
+}
+
+.adameve {
+  top: 5%;
+  margin-top: -13%;
+  width: 33%;
+  margin-left: 70%;
+
+}
+
+.kabbalah {
+  top: 25%;
+  margin-bottom: -50%;
+  width: 16%;
+  margin-left: 80%;
+
+}
+
+.kircher {
+  top: 25%;
+  margin-bottom: -10%;
+  width: 20%;
+  margin-left: 30%;
+
+}
+
+.ramus {
+  top: 20%;
+  margin-bottom: -20%;
+  width: 16%;
+  margin-left: 76%;
+}
+
+.bombe {
+  top: 5%;
+  margin-bottom: -10%;
+  width: 36%;
+  margin-left: 20%;
+
+}
+
+.kasparov {
+  top: 40%;
+  margin-bottom: -3%;
+  width: 36%;
+  margin-left: 46%;
+
+}
+
+.alanturing {
+  margin-bottom: -50%;
+  width: 16%;
+  margin-left: 60%;
+  display: none;
+}
+
+.machinelearning {
+  margin-bottom: -5%;
+  width: 60%;
+  margin-left: 1%;
+}
+
+.sort {
+  margin-bottom: -2%;
+  width: 30%;
+  margin-left: 6%;
+}
+.deepmind {
+  margin-bottom: -2%;
+  width: 30%;
+  margin-left: 60%;
+}
+
+.ai {
+  top: 30%;
+  margin-bottom: -20%;
+  width: 90%;
+  margin-left: 0%;
+  mix-blend-mode: difference;
+}
+
+.machinelearning:hover,
+.assyrian:hover,
+.sort:hover,
+.kabbalah:hover,
+.kircher:hover,
+.ramus:hover,
+.kasparov:hover,
+.alanturing:hover,
+.bombe:hover {
+  z-index: 999;
+}
